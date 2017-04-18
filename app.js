@@ -11,7 +11,7 @@ var matches = [];
 // startGame();
 
 function flip(clicked_id) {
-	// console.log(random);
+	console.log(random);
 	// console.log(clicked_id);
 	// console.log(newArray);
 	if (random == 1) {
@@ -39,7 +39,7 @@ function flip(clicked_id) {
 		} else if (clicked_id == 'card8') {
 			document.getElementById('card8').style.backgroundImage = "url('assets/Pickaxe.png')";
 		newArray.push('Pickaxe');
-		};
+		}
 	}
 	if (random == 2) {
 		if (clicked_id == 'card1') {
@@ -97,6 +97,7 @@ function flip(clicked_id) {
 			document.getElementById('card8').style.backgroundImage = "url('assets/Cake.png')";
 		newArray.push('Cake');
 		}
+	}
 	// var clicked_id = "";
 	console.log(newArray);
 	if (newArray.length == 2) {
@@ -167,7 +168,6 @@ function flip(clicked_id) {
 					document.getElementById('card8').style.backgroundImage = "url('assets/Cake.png')";
 				}
 			}
-		}
 		if (points == 4) {
 			document.getElementById('score').innerHTML = 'You win!';
 			document.getElementById('score').style.color = "lime";
