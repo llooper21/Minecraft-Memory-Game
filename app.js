@@ -149,6 +149,23 @@ function flip(clicked_id) {
 					document.getElementById('card3').style.backgroundImage = "url('assets/Cake.png')";
 					document.getElementById('card7').style.backgroundImage = "url('assets/Cake.png')";
 				}
+			} else if (random == 3) {
+				if (matches.indexOf("Creeper") > -1) {
+					document.getElementById('card3').style.backgroundImage = "url('assets/Creeper.png')";
+					document.getElementById('card6').style.backgroundImage = "url('assets/Creeper.png')";
+				}
+				if (matches.indexOf("Pickaxe") > -1) {
+					document.getElementById('card4').style.backgroundImage = "url('assets/Pickaxe.png')";
+					document.getElementById('card5').style.backgroundImage = "url('assets/Pickaxe.png')";
+				}
+				if (matches.indexOf("Ocelot") > -1) {
+					document.getElementById('card1').style.backgroundImage = "url('assets/Ocelot.png')";
+					document.getElementById('card7').style.backgroundImage = "url('assets/Ocelot.png')";
+				}
+				if (matches.indexOf("Cake") > -1) {
+					document.getElementById('card2').style.backgroundImage = "url('assets/Cake.png')";
+					document.getElementById('card8').style.backgroundImage = "url('assets/Cake.png')";
+				}
 			}
 		}
 		if (points == 4) {
