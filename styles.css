@@ -1,0 +1,61 @@
+#card1 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card2 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card3 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card4 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card5 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card6 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card7 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+#card8 {
+	background-image: url('assets/Block.png');
+	height: 291px;
+	width: 293px;
+}
+body {
+	background-color: aqua;
+}
+#test {
+	font-family: orbitron;
+}
+#row1 {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#row2 {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+p {
+	font-family: orbitron;	
+}
