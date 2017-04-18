@@ -1,4 +1,4 @@
-var random = Math.floor(Math.random() * 2 + 1);
+var random = Math.floor(Math.random() * 3 + 1);
 var newArray = [];
 var points = 0;
 var matches = [];
@@ -67,10 +67,36 @@ function flip(clicked_id) {
 			document.getElementById('card8').style.backgroundImage = "url('assets/Pickaxe.png')";
 		newArray.push('Pickaxe');
 		} 
-		else {
-			console.log("error");
+		// else {
+		// 	console.log("error");
+		// }
+	}
+	if (random == 3) {
+		if (clicked_id == 'card1') {
+			document.getElementById('card1').style.backgroundImage = "url('assets/Ocelot.png')";
+		newArray.push('Ocelot');
+		}else if (clicked_id == 'card2') {
+			document.getElementById('card2').style.backgroundImage = "url('assets/Cake.png')";
+		newArray.push('Cake');
+		}else if (clicked_id == 'card3') {
+			document.getElementById('card3').style.backgroundImage = "url('assets/Creeper.png')";
+		newArray.push('Creeper');
+		}else if (clicked_id == 'card4') {
+			document.getElementById('card4').style.backgroundImage = "url('assets/Pickaxe.png')";
+		newArray.push('Pickaxe');
+		}else if (clicked_id == 'card5') {
+			document.getElementById('card5').style.backgroundImage = "url('assets/Pickaxe.png')";
+		newArray.push('Pickaxe');
+		}else if (clicked_id == 'card6') {
+			document.getElementById('card6').style.backgroundImage = "url('assets/Creeper.png')";
+		newArray.push('Creeper');
+		}else if (clicked_id == 'card7') {
+			document.getElementById('card7').style.backgroundImage = "url('assets/Ocelot.png')";
+		newArray.push('Ocelot');
+		} else if (clicked_id == 'card8') {
+			document.getElementById('card8').style.backgroundImage = "url('assets/Cake.png')";
+		newArray.push('Cake');
 		}
-	};
 	// var clicked_id = "";
 	console.log(newArray);
 	if (newArray.length == 2) {
@@ -143,4 +169,5 @@ function flip(clicked_id) {
 		}
 	}
 	console.log(points);
-};
+	}
+}
