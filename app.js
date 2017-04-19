@@ -180,8 +180,11 @@ function flip(clicked_id) {
 		} else if (points == 1) {
 			document.getElementById('score').innerHTML = 'Points = 1';
 			document.getElementById('score').style.color = "black";
-		} else {
+		} else if (points == 0){
 			document.getElementById('score').innerHTML = 'Points = 0';
+			document.getElementById('score').style.color = "black";
+		} else {
+			document.getElementById('score').innerHTML = 'You cheated, no points for you! >:P';
 			document.getElementById('score').style.color = "black";
 		}
 	console.log(points);
